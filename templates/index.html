@@ -1,0 +1,41 @@
+$def with (input)
+
+<html>
+<head>
+<title>Video Generator Prototype</title>    
+</head>
+
+<body>
+    <h1>
+    Video Generator Prototype
+    </h1>    
+   
+    
+    
+    <form id="userInput" action="/" method="POST" enctype="multipart/form-data">
+        <table>
+        <tr>    
+            <td><input type="radio" name = "industry" value = "Automotive and Industrial">Automotive and Industrial</td>
+            <td><input type="radio" name = "industry" value = "Banking">Banking</td>
+            <td><input type="radio" name = "industry" value = "Capital Markets">Capital Markets</td>
+        </tr> 
+            
+        <tr>    
+            <td><input type="radio" name = "industry" value = "Insurance">Insurance</td>
+            <td><input type="radio" name = "industry" value = "Banking">Banking</td>
+            <td><input type="radio" name = "industry" value = "Capital Markets">Capital Markets</td>
+        </tr>
+            
+        </table>    
+        <input type="file" name= "logo" accept="image/x-png"><br>
+        <input type="submit">
+        
+    </form>
+    
+    <div>$:input</div>
+    
+</body>    
+    
+
+    
+</html>
